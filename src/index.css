@@ -64,3 +64,63 @@ nav ul a:hover {
   color: #0282f9;
   border-bottom: 5px solid #0282f9;
 }
+
+/* MAIN */
+
+/* content-link */
+
+.content-link {
+  background-color: #1c1c1c;
+  padding: 40px 0;
+}
+
+main a {
+  color: white;
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+main a:hover {
+  transform: scale(1.1);
+}
+
+/* cards */
+
+#cards {
+  background-color: #0282f9;
+  padding: 40px 0;
+}
+
+#cards ul {
+  display: flex;
+  column-gap: 40px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+
+.card a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.card .image {
+  width: 20%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card span {
+  display: inline-block;
+  width: 80%;
+  font-size: 14px;
+  text-transform: uppercase;
+}
