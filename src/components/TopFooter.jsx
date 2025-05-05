@@ -1,5 +1,6 @@
 import DcComicsList from './DcComicsList'
 import ShopList from './ShopList'
+import DcList from './DcList'
 
 const TopFooter = () => {
     return (
@@ -9,6 +10,9 @@ const TopFooter = () => {
                     <div className="col-25">
                         <DcComicsList />
                         <ShopList />
+                    </div>
+                    <div className="col-25">
+                        <DcList />
                     </div>
                     <div className="col-25">
 

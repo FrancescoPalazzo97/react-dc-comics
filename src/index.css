@@ -158,4 +158,13 @@ main a:hover {
 
 #top-footer ul a {
   color: grey;
+  transition: 0.3s;
+}
+
+#top-footer ul a:hover {
+  color: white;
+}
+
+#top-footer .col-50 {
+  gap: 15px;
 }
