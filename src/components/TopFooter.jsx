@@ -20,9 +20,7 @@ const TopFooter = () => {
                     </div>
                 </div>
                 <div className="col-50">
-                    <div id="logo-stamp">
-
-                    </div>
+                    <div id="logo-stamp"></div>
                 </div>
             </div>
         </div>

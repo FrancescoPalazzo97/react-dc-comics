@@ -17,6 +17,12 @@ a {
   color: black;
 }
 
+/* Utility */
+
+.img-fluid {
+  width: 100%;
+}
+
 /* PADDING */
 
 .py-30 {
@@ -37,6 +43,14 @@ a {
   width: 25%;
 }
 
+.col-30 {
+  width: 30%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
 .col-50 {
   width: 50%;
 }
@@ -45,6 +59,10 @@ a {
 
 .d-flex {
   display: flex;
+}
+
+align-items-center {
+  align-items: center;
 }
 
 /* HEADER */
@@ -180,4 +198,49 @@ main a:hover {
   background-image: url(../public/img/dc-logo-bg.png);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* bottom footer */
+
+#bottom-footer {
+  background-color: #303030;
+}
+
+#bottom-footer button {
+  background-color: #303030;
+  border: 3px solid #0282f9;
+  margin: 20px 0;
+  padding: 15px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+#bottom-footer button:hover {
+  transform: scale(1.1);
+}
+
+#bottom-footer button a {
+  color: white;
+}
+
+#follow-us {
+  width: 35%;
+}
+
+#follow-us span {
+  text-transform: uppercase;
+  color: #0282f9;
+  font-weight: bold;
+  font-size: 18px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+#follow-us ul {
+  width: 100%;
+  gap: 15px;
+}
+
+#follow-us ul li {
+  width: 20%;
 }
