@@ -27,6 +27,20 @@ a {
   justify-content: space-between;
 }
 
+.col-25 {
+  width: 25%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+/* FLEX */
+
+.d-flex {
+  display: flex;
+}
+
 /* HEADER */
 
 header {
@@ -128,6 +142,20 @@ main a:hover {
 /* FOOTER */
 
 #top-footer {
-  height: 300px;
   background-image: url(/public/img/footer-bg.jpg);
+  padding: 30px 0;
+}
+
+#top-footer h2 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#top-footer ul {
+  margin-bottom: 20px;
+}
+
+#top-footer ul a {
+  color: grey;
 }
