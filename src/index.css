@@ -39,6 +39,10 @@ a {
   justify-content: space-between;
 }
 
+.content-link .container {
+  justify-content: center;
+}
+
 .col-25 {
   width: 25%;
 }
@@ -55,14 +59,24 @@ a {
   width: 50%;
 }
 
+/* position */
+
+.p-relative {
+  position: relative;
+}
+
 /* FLEX */
 
 .d-flex {
   display: flex;
 }
 
-align-items-center {
+.align-items-center {
   align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -104,6 +118,26 @@ nav ul a:hover {
 }
 
 /* MAIN */
+
+/* jumbo */
+
+#jumbo {
+  height: 450px;
+  background-image: url(/public/img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#series {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: #0282f9;
+  position: absolute;
+  top: -14%;
+  left: 0;
+}
 
 /* content-link */
 
@@ -210,6 +244,25 @@ main a:hover {
   text-transform: uppercase;
 }
 
+main button {
+  background-color: #0282f9;
+  border: none;
+  margin: 20px 0 10px;
+  padding: 10px 30px 15px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+main button::before {
+  content: "load more";
+  color: white;
+  font-weight: bold;
+}
+
+main button:hover {
+  transform: scale(1.1);
+}
+
 /* FOOTER */
 
 #top-footer {
@@ -262,6 +315,11 @@ main a:hover {
   padding: 15px;
   text-transform: uppercase;
   transition: 0.5s;
+}
+
+#bottom-footer button::before {
+  content: "sign-up now!";
+  color: white;
 }
 
 #bottom-footer button:hover {
