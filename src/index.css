@@ -138,6 +138,12 @@ main a:hover {
   display: flex;
   flex-wrap: wrap;
   background-color: #1c1c1c;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.comic-card:hover {
+  transform: scale(1.1);
 }
 
 .card-image {
@@ -156,6 +162,11 @@ main a:hover {
 
 .comic-card p {
   color: white;
+  filter: brightness(80%);
+}
+
+.comic-card:hover p {
+  filter: none;
 }
 
 /* cards */
