@@ -122,6 +122,42 @@ main a:hover {
   transform: scale(1.1);
 }
 
+/* comic-cards */
+
+.comic-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.comic-card {
+  width: calc(90% / 6);
+  height: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1c1c1c;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+
+.comic-card img {
+  width: 150%;
+  object-fit: cover;
+}
+
+.comic-card p {
+  color: white;
+}
+
 /* cards */
 
 #cards {
