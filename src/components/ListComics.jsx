@@ -8,7 +8,7 @@ const ListComics = () => {
             <span id='series'>current series</span>
             <div className="comic-cards">
                 {comics.map(comic => (
-                    <ComicCard img={comic.thumb} series={comic.series} />
+                    <ComicCard key={comic.id} img={comic.thumb} series={comic.series} />
                 ))}
             </div>
             <Button />
